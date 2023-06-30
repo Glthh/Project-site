@@ -1,0 +1,54 @@
+
+🔱 APIS DISPONÍVEIS 🔥
+
+TELEFONE:
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/tel?telefone=TelefoneAqui&token=SeuToken
+
+TELEFONE2:
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/tel2?telefone=TelefoneAqui&token=SeuToken
+
+CPF
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/cpf?cpf=CpfAqui&token=SeuToken
+
+CNS
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/cns?cns=CnsAqui&token=SeuToken
+
+CNPJ 
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/cnpj?cnpj=CnpjAqui&token=SeuToken
+
+BIN
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/bin?bin=BinAqui&token=SeuToken
+
+CEP
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/cep?cep=CepAqui&token=SeuToken
+
+IP
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/ip?ip=IpAqui&token=SeuToken
+
+TIKTOK 
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/tiktok?q=@Aqui&token=SeuToken
+
+SCORE
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/score?cpf=CpfAqui&token=SeuToken
+
+BENEFICIOS
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/beneficios?cpf=CpfAqui&token=SeuToken
+
+PLACA
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/placa?placa=PlacaAqui&token=SeuToken
+
+NOME 
+https://annonimoapi.jose-gabrielg45.repl.co/puxar/nome?nome=NomeAqui&token=SeuToken
+
+GERADOR DE BUZZON +55
+https://annonimoapi.jose-gabrielg45.repl.co/gerar/buzzon55?token=SeuToken
+
+GERADOR DE NICK
+https://annonimoapi.jose-gabrielg45.repl.co/gerar/nick?nome=NomePraNick&token=SeuToken
+
+GERADOR DE CPF 
+https://annonimoapi.jose-gabrielg45.repl.co/gerar/cpf?token=SeuToken
+
+GERADOR DE CC
+https://annonimoapi.jose-gabrielg45.repl.co/gerar/cc?token=SeuToken
+

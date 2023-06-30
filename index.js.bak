@@ -121,7 +121,7 @@ const Grupos = [
 
 const apiId = "28799801"; //https://my.telegram.org/auth
 const apiHash = "9f3765ba578a2607732885e04566d976"; //https://my.telegram.org/auth
-const stringSession = new StringSession("")
+const stringSession = new StringSession("1AQAOMTQ5LjE1NC4xNzUuNTEBu0yB/v+jzXFsT01ZGBgqNj7Kpt18TISlhWZBZTPpTpKKrv4TPAVSCOAej2rQdoHVPvh1cIgfEqH+5XOYm/UYuM/Li62N2vGP63jP7a4w/pbw8/S37nHhRHPBqugyuf9hKwpe7dUu02pY+up6Wjhz98mCKP7pfcVb4aEhQQrZoeCWq93TiGx8JK5OknuEis+bwiIBRz4LEwaTOhGXw4O4dYWA1RgzTCLmz6UjMdrgk6WZW7h3zwifT4SiZpitFLq5b3uwxWbGLeJ4f9e6PB1UQDQRlhUKx9FTF3O16hPYVBBoyWTIoj32WV4HJBT51Sgu9/YvE+ToeazJ40W4JOQa8Do=")
 
 //FIM
 
