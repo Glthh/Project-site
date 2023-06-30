@@ -94,6 +94,6 @@ msg: 'Página não encontrada no servidor, entre em contato com o donos'
 })
 
 
-app.listen(8000 () => {
+app.listen(8000, () => {
 console.log('Aplicativo aberto na porta 8000')
 })
