@@ -852,7 +852,7 @@ app.get("/:type/:q/", ApiKeyAut, async (req, res) => {
                "str": "[⏳]servidor demorou muito para responder[⏳]"
                }
              })
-	}, 10000);
+	}, 20000);
 });
 
 
