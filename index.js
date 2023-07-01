@@ -784,6 +784,7 @@ app.get("/:type/:q/", ApiKeyAut, async (req, res) => {
 					str = str.replace(/USUÁRIO: Annônimokkj\n\n/gi, '');
 					str = str.replace(/ USUÁRIO: Annônimokkj/gi, '');
 					str = str.replace(/🔍|V1|V2/gi, '');
+					str = str.replace(/__/gi, '');
 					str = str.replace(/COMPLETA/gi, '');
 					str = str.replace(/CONSULTA DE CPF 2/gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑷𝑭 🕵️』');
 					str = str.replace(/\n\nBY: @MkBuscasRobot/gi, "");
@@ -793,9 +794,14 @@ app.get("/:type/:q/", ApiKeyAut, async (req, res) => {
 					str = str.replace(/EMPTY/gi, "");
 					str = str.replace(/\n\n\n\n/gi, "\n\n");
 					str = str.replace(/USUÁRIO: Annônimokkj/gi, '');
+					str = str.replace(/ CONSULTA DE PLACA /gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑷𝑳𝑨𝑪𝑨 🕵️』');
+					str = str.replace(/ CONSULTA DE TELEFONE /gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑻𝑬𝑳𝑬𝑭𝑶𝑵𝑰𝑪𝑨 🕵️』');
+					str = str.replace(/ CONSULTA DE NOME /gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑵𝑶𝑴𝑬 🕵️』');
+					str = str.replace(/ CONSULTA DE CNPJ /gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑵𝑷𝑱 🕵️』');
+					str = str.replace(/ CONSULTA DE SCORE \n\n SCORE V3 SPC MOSAIC /gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑺𝑪𝑶𝑹𝑬 🕵️』');
 					str = str.replace(/COMPLETA/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗖𝗣𝗙\n\n/gi, '');
-					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗣𝗟𝗔𝗖𝗔\n\n/gi, '');
+					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗣𝗟𝗔𝗖𝗔\n\n/gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑷𝑳𝑨𝑪𝑨 🕵️』');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗧𝗘𝗟𝗘𝗙𝗢𝗡𝗘\n\n/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗡𝗢𝗠𝗘\n\n/gi, '');
 
@@ -835,7 +841,7 @@ app.get("/:type/:q/", ApiKeyAut, async (req, res) => {
                  status: true,
 
                "resultado": {
-               "str": "[❌]error no servidor, não foi possivel fazer a consulta[❌]"
+               "str": "internal server error"
                }
              })
 				console.log(e);
@@ -849,10 +855,10 @@ app.get("/:type/:q/", ApiKeyAut, async (req, res) => {
                  status: true,
 
                "resultado": {
-               "str": "[⏳]servidor demorou muito para responder[⏳]"
+               "str": "expired response time"
                }
              })
-	}, 20000);
+	}, 220000);
 });
 
 
