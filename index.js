@@ -112,9 +112,8 @@ const clientModel = req.header('X-Client-Model');
 // FAMILIACNXCONTINENCIAOFC
 
 const Grupos = [
+	{ chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
 	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
-    { chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
-
 ];
 
 //COLOCA SEUS BAGULHO AQ
