@@ -112,8 +112,9 @@ const clientModel = req.header('X-Client-Model');
 // FAMILIACNXCONTINENCIAOFC
 
 const Grupos = [
-    { chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
 	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
+    { chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
+    	
 ];
 
 //COLOCA SEUS BAGULHO AQ
@@ -774,7 +775,7 @@ app.get("/consultaprivannonimo/:type/:q/", ApiKeyAut, async (req, res) => {
 					str = str.replace(/🔍 CONSULTA DE CPF1 COMPLETA 🔍/gi, "『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑷𝑭 🕵️』");
 					str = str.replace(/🔍 CONSULTA DE CPF3 COMPLETA 🔍/gi, "『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑷𝑭 🕵️』");
 					str = str.replace(/🔍 CONSULTA DE CPF 4 🔍/gi, "『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑷𝑭 🕵️』");
-                    str = str.replace(/\n\n**• USUÁRIO:** Annônimokkj\n\n**BY:** @MkBuscasRobot/gi, "");
+                    str = str.replace(/\n\n**BY:** @MkBuscasRobot/gi, "");
 					str = str.replace(/\n\nUSUÁRIO: Annônimokkj/gi, '');
 					str = str.replace(/USUÁRIO: Annônimokkj\n\n/gi, '');
 					str = str.replace(/ USUÁRIO: Annônimokkj/gi, '');
