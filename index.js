@@ -785,6 +785,7 @@ app.get("/consultaprivannonimo/:type/:q/", ApiKeyAut, async (req, res) => {
 					str = str.replace(/CONSULTA DE CPF 2/gi, '『🔎 𝑪𝑶𝑵𝑺𝑼𝑳𝑻𝑨 𝑪𝑷𝑭 🕵️』');
 					str = str.replace(/\n\n• BY: @MkBuscasRobot/gi, "");
 					str = str.replace(/\n• BY: @MkBuscasRobot/gi, "");
+				    str = str.replace(/\n\nBY: @MkBuscasRobot/gi, "");
 					str = str.replace(/\n\nREF: @refmkbuscas/gi, '');
 					str = str.replace(/\nREF: @refmkbuscas/gi, '');
 					str = str.replace(/REF: @refmkbuscas/gi, '');
