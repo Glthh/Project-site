@@ -112,15 +112,14 @@ const clientModel = req.header('X-Client-Model');
 // FAMILIACNXCONTINENCIAOFC
 
 const Grupos = [
-	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
     { chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
-
+	{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
 ];
 
 //COLOCA SEUS BAGULHO AQ
 
-const apiId = ""; //https://my.telegram.org/auth
-const apiHash = ""; //https://my.telegram.org/auth
+const apiId = "2607732885"; //https://my.telegram.org/auth
+const apiHash = "9f3765ba578a2607732885e04566d976"; //https://my.telegram.org/auth
 const stringSession = new StringSession("1AQAOMTQ5LjE1NC4xNzUuNTEBu4dixmylIWQWP2/WluzJc5rvuNulb/SWJ8nDqIUqzCOvCobk7RfPjg6CrVyZZQmsXr/Cwt+2qAqNXP7rVqKHgs6J4b8t9F53QJoJCQYt0HP7I50zi9dvZNm8DbMYG/Pd2lIa9Zg0b6JG9BfyY8eNYUPdwsgHOSwT6AAlwYeFrCFE9UalLjupAg8cdk50NpzqOr2TRFpKcq3SQwXkFua/ANJgM/4GKEZlrByF2Rl1ogoA718v/ysIsdukOAH/M6onrkfZgotKfhGYqpnuyB29VJOBRjf0Yoaar0ulJ9k7VV5WOW1kXZkyyepG9f5ELJWk1f06RKQCWrqt4ty476nRbwM=")
 
 //FIM
@@ -131,7 +130,7 @@ const telegram = new TelegramClient(stringSession, apiId, apiHash, {
 
 (async () => {
 	await telegram.start({
-		phoneNumber: "", // SEU NUMERO DE TELEFONE AQUI DA CONTA DO TELEGRAM QUE DESEJA USAR!
+		phoneNumber: "5518996998971", // SEU NUMERO DE TELEFONE AQUI DA CONTA DO TELEGRAM QUE DESEJA USAR!
 		password: async () => await input.text("insira sua senha: "),
 		phoneCode: async () =>
 			await input.text("Insira o codigo recebido no seu telegram: "),
