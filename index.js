@@ -765,6 +765,7 @@ app.get("/consultaprivannonimo/:type/:q/", ApiKeyAut, async (req, res) => {
 					await telegram.markAsRead(chat);
 					let str = textPure;
 					str = str.replace(/\+/gi, "");
+					str = str.replace(/\*/gi, "");
 					str = str.replace(/\[/gi, "");
 					str = str.replace(/\]/gi, "");
 					str = str.replace(/\(/gi, "");
