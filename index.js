@@ -112,7 +112,7 @@ const clientModel = req.header('X-Client-Model');
 // FAMILIACNXCONTINENCIAOFC
 
 const Grupos = [
-{ chat: "puxadas_nbs", bot: "MkBuscasRobot" },
+{ chat: "MkBuscasRobot", bot: "MkBuscasRobot" },
 { chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
 	
     	
@@ -122,7 +122,7 @@ const Grupos = [
 
 const apiId = "2607732885"; //https://my.telegram.org/auth
 const apiHash = "9f3765ba578a2607732885e04566d976"; //https://my.telegram.org/auth
-const stringSession = new StringSession("1AQAOMTQ5LjE1NC4xNzUuNTcBu6mCMbhUESwdXmQvVn7e6HIlu03GpJrfYczDbMVPXcgfmIHcbbgtwDKw6joagouzWgX50mQtl9dc9lxBtpwRQ7D4qaxMsznncNrX4ILeIQn+2oYdpVDLgRVYvF+S/Z8afub57B1jx4ILyQyJGEpR4sce21EHY5u9XarML2fmaI6OpMS3UZEHXvVYccyigW1SM7XFG/eWqmVBc+nWeq5RIs13aFOgbTmK55vkvacz+8IdXU3yfkANGW3H4AR12spmMfLWQZYq6Gwtx4Pu+8qyYOm65jLTmd4dGQ7wLNjECVZvVKPXew8kacmH4j6UclhLhpqoAL3FBCNR3uztpfltCag=")
+const stringSession = new StringSession("1AQAOMTQ5LjE1NC4xNzUuNTcBu2Oqd5ABDaATwLc6DTLRi3vFUvAms5c8ntsvRXtd+DZSc6Oe6lzxHeDGN6nVWsrDpjwVCQ0DdQch6FwInU+s0diknP9lOod5p1DV+nTn7x8578oJjcK2/6GQ/6owIIHqam7k4igLhhOmvi+EjscSUD3ZgFXzhFFGgjC0q7HGT/9BKorYnFKDPgxCffEqTl5CIng8XN/3AOUlQNl48aXxImhADIQq7JbxqvirAmr6hFPWLba90uPYZyM106fNvQQOpzZcGU/n4m6URFB4y0e65l8Ecaw/3xvy9S5Vg2fVD7lnPoZqdCarwpCNN7OCJfSTP7oyGELBigLARN+QtPzDEJc=")
 
 //FIM
 
